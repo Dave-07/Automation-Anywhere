@@ -1,0 +1,367 @@
+/*Логи пишутся вручную для каждого действия при разработке задачи для автоматизации и 
+в дальнейшем при выполнении задачи отображают каждый шаг и 
+процесс выполнения для возможности выявления причины ошибок. */
+
+/*Пример записи логов на основе одной из задач*/
+
+18:37:29: Started client
+18:37:29: accessing Kroger log in page..
+18:37:37: passing a username ..
+18:37:42: passing a password ..
+18:37:56: redirecting to the payments page ..
+18:38:03: removing readonly attribute ..
+18:38:03: assigning current date to the variable ..
+18:38:03: executing conditions, choosing the dates ..
+18:38:04: condition 2 has been selected;
+18:38:06: passing date FROM ..
+18:38:10: passing date TO ..
+18:38:16: selecting the remiattance method ..
+18:38:46: copying a link of the first invoice ..
+18:38:53: redirecting to clipboard link page ..
+18:39:00: starting the loop to dowload all invoices ..
+18:42:59: starting the loop and an API upload session ..
+18:42:59: Currently processing :: 092-A200745-491
+18:43:02:  The file: 092-A200745-491 has been deleted ..
+18:43:02:  HTTP respond:  
+18:43:02: Currently processing :: 092-A200746-491
+18:43:04:  The file: 092-A200746-491 has been deleted ..
+18:43:04:  HTTP respond:  
+18:43:04: Currently processing :: 092-A200747-491
+18:43:06:  The file: 092-A200747-491 has been deleted ..
+18:43:06:  HTTP respond:  
+18:43:06: Currently processing :: 092-A200748-491
+18:43:08:  The file: 092-A200748-491 has been deleted ..
+18:43:08:  HTTP respond:  
+18:43:08: Currently processing :: 092-A200749-491
+18:43:10:  The file: 092-A200749-491 has been deleted ..
+18:43:10:  HTTP respond:  
+18:43:10: Currently processing :: 092-A200750-491
+18:43:12:  The file: 092-A200750-491 has been deleted ..
+18:43:12:  HTTP respond:  
+18:43:12: Currently processing :: 092-A200751-491
+18:43:14:  The file: 092-A200751-491 has been deleted ..
+18:43:14:  HTTP respond:  
+18:43:14: Currently processing :: 092-A2210-48656
+18:43:16:  The file: 092-A2210-48656 has been deleted ..
+18:43:16:  HTTP respond:  
+18:43:16: Currently processing :: 092-A787590-703
+18:43:18:  The file: 092-A787590-703 has been deleted ..
+18:43:18:  HTTP respond:  
+18:43:18: finished uploading all invoices ..
+18:43:26: logging out ..
+18:43:29: Finished client: Manzana Products Co Inc
+16:28:34: Started client: Manzana Products Co Inc
+16:28:34: accessing Kroger log in page..
+16:28:41: passing a username ..
+16:28:48: passing a password ..
+16:28:57: redirecting to the payments page ..
+16:29:04: removing readonly attribute ..
+16:29:04: assigning current date to the variable ..
+16:29:04: executing conditions, choosing the dates ..
+16:29:05: condition 3 has been selected;
+16:29:07: passing date FROM ..
+16:29:11: passing date TO ..
+16:29:17: selecting the remiattance method ..
+16:29:36 no files have been found to download ..
+bot PAUSED ...
+ 16:32:20: Started client: Manzana Products Co Inc
+ 16:32:20: accessing Kroger log in page..
+ 16:32:27: passing a username ..
+ 16:32:33: passing a password ..
+ 16:34:57: Started client: Manzana Products Co Inc
+ 16:34:57: accessing Kroger log in page..
+ 16:35:05: passing a username ..
+ 16:35:10: passing a password ..
+ 16:35:19: redirecting to the payments page ..
+ 16:35:26: removing readonly attribute ..
+ 16:35:26: assigning current date to the variable ..
+ 16:35:26: executing conditions, choosing the dates ..
+ 16:35:27: condition 2 has been selected;
+ 16:35:29: passing date FROM ..
+ 16:35:33: passing date TO ..
+ 16:35:39: selecting the remiattance method ..
+ 16:36:09: copying a link of the first invoice ..
+ 16:36:15: redirecting to clipboard link page ..
+ 16:36:21: starting the loop to dowload all invoices ..
+ 16:40:21: starting the loop and an API upload session ..
+ 16:40:21: Currently processing :: 092-A200745-491
+ 16:40:23:  The file: 092-A200745-491 has been deleted ..
+ 16:40:23:  HTTP respond:  
+ 16:40:23: Currently processing :: 092-A200746-491
+ 16:40:25:  The file: 092-A200746-491 has been deleted ..
+ 16:40:25:  HTTP respond:  
+ 16:40:25: Currently processing :: 092-A200747-491
+ 16:40:27:  The file: 092-A200747-491 has been deleted ..
+ 16:40:28:  HTTP respond:  
+ 16:40:28: Currently processing :: 092-A200748-491
+ 16:40:30:  The file: 092-A200748-491 has been deleted ..
+ 16:40:30:  HTTP respond:  
+ 16:40:30: Currently processing :: 092-A200749-491
+ 16:40:32:  The file: 092-A200749-491 has been deleted ..
+ 16:40:32:  HTTP respond:  
+ 16:40:32: Currently processing :: 092-A200750-491
+ 16:40:34:  The file: 092-A200750-491 has been deleted ..
+ 16:40:34:  HTTP respond:  
+ 16:40:34: Currently processing :: 092-A200751-491
+ 16:40:36:  The file: 092-A200751-491 has been deleted ..
+ 16:40:36:  HTTP respond:  
+ 16:40:36: Currently processing :: 092-A2210-48656
+ 16:40:38:  The file: 092-A2210-48656 has been deleted ..
+ 16:40:38:  HTTP respond:  
+ 16:40:38: Currently processing :: 092-A787590-703
+ 16:40:40:  The file: 092-A787590-703 has been deleted ..
+ 16:40:40:  HTTP respond:  
+ 16:40:40: finished uploading all invoices ..
+ 16:40:48: logging out ..
+ 16:40:51: Finished client: Manzana Products Co Inc
+ 23:24:53: Started client: Manzana Products Co Inc
+ 23:24:53: accessing a Kroger log in page..
+ 23:25:00: passing a username ..
+ 23:25:07: passing a password ..
+ 23:25:18: redirecting to the payments page ..
+ 23:25:27: removing readonly attribute ..
+ 23:25:27: assigning current date to the variable ..
+ 23:25:27: executing conditions, choosing the dates ..
+ 23:25:28: condition 2 has been selected;
+ 23:25:30: passing date FROM ..
+ 23:25:34: passing date TO ..
+ 23:25:40: selecting the remiattance method ..
+ 23:26:10: copying a link of the first invoice ..
+ 23:26:16: redirecting to clipboard link page ..
+ 23:26:23: starting the loop to dowload all invoices ..
+ 23:30:23: starting the loop and an API upload session ..
+ 23:30:23: Currently processing :: 092-A200745-491
+ 23:30:25:  The file: 092-A200745-491 has been deleted ..
+ 23:30:25:  HTTP respond:  
+ 23:30:25: Currently processing :: 092-A200746-491
+ 23:30:27:  The file: 092-A200746-491 has been deleted ..
+ 23:30:27:  HTTP respond:  
+ 23:30:27: Currently processing :: 092-A200747-491
+ 23:30:29:  The file: 092-A200747-491 has been deleted ..
+ 23:30:29:  HTTP respond:  
+ 23:30:29: Currently processing :: 092-A200748-491
+ 23:30:31:  The file: 092-A200748-491 has been deleted ..
+ 23:30:31:  HTTP respond:  
+ 23:30:31: Currently processing :: 092-A200749-491
+ 23:30:33:  The file: 092-A200749-491 has been deleted ..
+ 23:30:33:  HTTP respond:  
+ 23:30:34: Currently processing :: 092-A200750-491
+ 23:30:36:  The file: 092-A200750-491 has been deleted ..
+ 23:30:36:  HTTP respond:  
+ 23:30:36: Currently processing :: 092-A200751-491
+ 23:30:38:  The file: 092-A200751-491 has been deleted ..
+ 23:30:38:  HTTP respond:  
+ 23:30:38: Currently processing :: 092-A2210-48656
+ 23:30:40:  The file: 092-A2210-48656 has been deleted ..
+ 23:30:40:  HTTP respond:  
+ 23:30:40: Currently processing :: 092-A787590-703
+ 23:30:42:  The file: 092-A787590-703 has been deleted ..
+ 23:30:42:  HTTP respond:  
+ 23:30:42: finished uploading all invoices ..
+ 23:30:50: logging out ..
+ 23:30:53: Finished client: Manzana Products Co Inc
+ 18:32:13: Started client: Manzana Products Co Inc
+ 18:32:13: accessing a Kroger log in page..
+ 18:32:20: passing a username ..
+ 18:32:27: passing a password ..
+ 18:33:02: Started client: Manzana Products Co Inc
+ 18:33:02: accessing a Kroger log in page..
+ 18:33:09: passing a username ..
+ 18:33:16: passing a password ..
+ 18:33:27: redirecting to the payments page ..
+ 18:33:36: removing readonly attribute ..
+ 18:33:37: assigning current date to the variable ..
+ 18:33:37: executing conditions, choosing the dates ..
+ 18:33:37: condition 3 has been selected;
+ 18:33:39: passing date FROM ..
+ 18:33:43: passing date TO ..
+ 18:33:50: selecting the remiattance method ..
+ 18:34:09: no files have been found to download ..
+ 18:34:09: bot PAUSED ...
+ 18:36:00: Started client: Manzana Products Co Inc
+ 18:36:00: accessing a Kroger log in page..
+ 18:36:07: passing a username ..
+ 18:36:13: passing a password ..
+ 18:36:24: redirecting to the payments page ..
+ 18:36:33: removing readonly attribute ..
+ 18:36:33: assigning current date to the variable ..
+ 18:36:33: executing conditions, choosing the dates ..
+ 18:36:34: condition 2 has been selected;
+ 18:36:36: passing date FROM ..
+ 18:36:40: passing date TO ..
+ 18:36:46: selecting the remiattance method ..
+ 18:37:17: copying a link of the first invoice ..
+ 18:37:23: redirecting to clipboard link page ..
+ 18:37:30: starting the loop to dowload all invoices ..
+ 18:48:58: Started client: Manzana Products Co Inc
+ 18:48:59: accessing a Kroger log in page..
+ 18:49:06: passing a username ..
+ 18:49:12: passing a password ..
+ 18:49:23: redirecting to the payments page ..
+ 18:49:32: removing readonly attribute ..
+ 18:49:32: assigning current date to the variable ..
+ 18:49:32: executing conditions, choosing the dates ..
+ 18:49:33: condition 2 has been selected;
+ 18:49:35: passing date FROM ..
+ 18:49:41: passing date TO ..
+ 18:49:47: selecting the remiattance method ..
+ 18:50:17: copying a link of the first invoice ..
+ 18:50:23: redirecting to clipboard link page ..
+ 18:50:31: starting the loop to dowload all invoices ..
+ 18:54:31: starting the loop and an API upload session ..
+ 18:54:31: Currently processing :: 092-A200745-491
+ 18:54:33:  The file: 092-A200745-491 has been deleted ..
+ 18:54:33:  HTTP respond:  
+ 18:54:33: Currently processing :: 092-A200746-491
+ 18:54:35:  The file: 092-A200746-491 has been deleted ..
+ 18:54:35:  HTTP respond:  
+ 18:54:35: Currently processing :: 092-A200747-491
+ 18:54:38:  The file: 092-A200747-491 has been deleted ..
+ 18:54:38:  HTTP respond:  
+ 18:54:38: Currently processing :: 092-A200748-491
+ 18:54:40:  The file: 092-A200748-491 has been deleted ..
+ 18:54:40:  HTTP respond:  
+ 18:54:40: Currently processing :: 092-A200749-491
+ 18:54:42:  The file: 092-A200749-491 has been deleted ..
+ 18:54:42:  HTTP respond:  
+ 18:54:42: Currently processing :: 092-A200750-491
+ 18:54:44:  The file: 092-A200750-491 has been deleted ..
+ 18:54:44:  HTTP respond:  
+ 18:54:44: Currently processing :: 092-A200751-491
+ 18:54:46:  The file: 092-A200751-491 has been deleted ..
+ 18:54:46:  HTTP respond:  
+ 18:54:46: Currently processing :: 092-A2210-48656
+ 18:54:48:  The file: 092-A2210-48656 has been deleted ..
+ 18:54:48:  HTTP respond:  
+ 18:54:48: Currently processing :: 092-A787590-703
+ 18:54:50:  The file: 092-A787590-703 has been deleted ..
+ 18:54:50:  HTTP respond:  
+ 18:54:50: finished uploading all invoices ..
+ 18:54:58: logging out ..
+ 18:55:02: Finished client: Manzana Products Co Inc
+ 16:14:44: removing readonly attribute ..
+ 16:14:45: assigning current date to the variable ..
+ 16:14:45: executing conditions, choosing the dates ..
+ 16:14:47: condition 2 has been selected;
+ 16:14:49: passing date FROM ..
+ 16:15:01: passing date TO ..
+ 19:23:59: Started client: Manzana Products Co Inc
+ 19:23:59: accessing a Kroger log in page..
+ 19:24:06: passing a username ..
+ 19:24:13: passing a password ..
+ 19:24:24: redirecting to the payments page ..
+ 19:24:33: removing readonly attribute ..
+ 19:24:33: assigning current date to the variable ..
+ 19:24:34: executing conditions, choosing the dates ..
+ 19:24:35: condition 3 has been selected;
+ 19:24:37: passing date FROM ..
+ 19:24:40: passing date TO ..
+ 14:52:22: accessing a Kroger log in page..
+ 14:52:29: passing a username ..
+ 14:53:35: accessing a Kroger log in page..
+ 14:53:42: passing a username ..
+ 14:53:48: passing a password ..
+ 14:55:04: accessing a Kroger log in page..
+ 14:55:12: passing a username ..
+ 14:55:17: passing a password ..
+ 15:00:56: accessing a Kroger log in page..
+ 15:01:04: passing a username ..
+ 15:01:10: passing a password ..
+ 19:14:04: accessing a Kroger log in page..
+ 19:14:12: passing a username ..
+ 19:14:17: passing a password ..
+ 19:14:28: redirecting to the payments page ..
+ 19:14:37: removing readonly attribute ..
+ 19:14:37: assigning current date to the variable ..
+ 19:14:38: executing conditions, choosing the dates ..
+ 19:14:38: condition 2 has been selected;
+ 19:14:40: passing date FROM ..
+ 19:14:44: passing date TO ..
+ 19:17:39: accessing a Kroger log in page..
+ 19:18:31: assigning current date to the variable ..
+ 19:18:31: executing conditions, choosing the dates ..
+ 19:18:32: condition 3 has been selected;
+ 19:18:34: passing date FROM ..
+ 19:19:17: assigning current date to the variable ..
+ 19:19:17: executing conditions, choosing the dates ..
+ 19:19:18: condition 3 has been selected;
+ 19:19:20: passing date FROM ..
+ 19:19:26: passing date TO ..
+ 19:23:57: passing date FROM ..
+ 19:24:03: passing date TO ..
+ 19:30:15: removing readonly attribute ..
+ 19:30:16: assigning current date to the variable ..
+ 19:30:16: executing conditions, choosing the dates ..
+ 19:30:17: condition 4 has been selected;
+ 19:30:19: passing date FROM ..
+ 19:30:24: passing date TO ..
+ 19:34:31: removing readonly attribute ..
+ 19:34:32: assigning current date to the variable ..
+ 19:34:32: executing conditions, choosing the dates ..
+ 19:34:33: condition 5 has been selected;
+ 19:34:35: passing date FROM ..
+ 19:34:41: passing date TO ..
+ 13:10:09: accessing a Kroger log in page..
+ 13:10:17: passing a username ..
+ 13:10:23: passing a password ..
+ 13:10:36: redirecting to the payments page ..
+ 13:10:45: removing readonly attribute ..
+ 13:10:45: assigning current date to the variable ..
+ 13:10:45: executing conditions, choosing the dates ..
+ 13:10:46: condition 5 has been selected;
+ 13:10:48: passing date FROM ..
+ 13:10:52: passing date TO ..
+ 13:12:39: accessing a Kroger log in page..
+ 13:12:47: passing a username ..
+ 13:12:52: passing a password ..
+ 13:13:08: redirecting to the payments page ..
+ 13:13:17: removing readonly attribute ..
+ 13:13:17: assigning current date to the variable ..
+ 13:13:17: executing conditions, choosing the dates ..
+ 13:13:18: condition 4 has been selected;
+ 13:13:20: passing date FROM ..
+ 13:13:24: passing date TO ..
+ 13:16:08: accessing a Kroger log in page..
+ 13:16:16: passing a username ..
+ 13:16:22: passing a password ..
+ 13:16:33: redirecting to the payments page ..
+ 13:16:42: removing readonly attribute ..
+ 13:16:43: assigning current date to the variable ..
+ 13:16:43: executing conditions, choosing the dates ..
+ 13:16:43: condition 4 has been selected;
+ 13:16:45: passing date FROM ..
+ 13:16:49: passing date TO ..
+ 13:16:55: selecting the remiattance method ..
+ 13:21:28: accessing a Kroger log in page..
+ 13:21:36: passing a username ..
+ 13:21:41: passing a password ..
+ 13:21:52: redirecting to the payments page ..
+ 13:22:02: removing readonly attribute ..
+ 13:22:02: assigning current date to the variable ..
+ 13:22:02: executing conditions, choosing the dates ..
+ 13:22:02: condition 3 has been selected;
+ 13:22:04: passing date FROM ..
+ 13:22:08: passing date TO ..
+ 13:22:14: selecting the remiattance method ..
+ 17:19:59: accessing a Kroger log in page..
+ 17:20:06: passing a username ..
+ 17:20:12: passing a password ..
+ 17:20:23: redirecting to the payments page ..
+ 17:20:32: removing readonly attribute ..
+ 17:20:32: assigning current date to the variable ..
+ 17:20:33: executing conditions, choosing the dates ..
+ 17:20:33: condition 3 has been selected;
+ 17:20:35: passing date FROM ..
+ 17:20:39: passing date TO ..
+ 17:20:45: selecting the remiattance method ..
+ 20:43:22: accessing a Kroger log in page..
+ 20:43:30: passing a username ..
+ 20:43:38: passing a password ..
+ 20:43:49: redirecting to the payments page ..
+ 20:43:58: removing readonly attribute ..
+ 20:43:58: assigning current date to the variable ..
+ 20:43:59: executing conditions, choosing the dates ..
+ 20:44:00: condition 3 has been selected;
+ 20:44:02: passing date FROM ..
+ 20:44:05: passing date TO ..
+ 20:44:12: selecting the remiattance method ..
